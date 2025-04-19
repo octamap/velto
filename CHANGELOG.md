@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### ✨ Added
 
-- Initial release of **Export Autocomplete** 🎉
+- Initial release of **Velto** 🎉
 - Auto-completion for `export` statements in:
   - JavaScript
   - TypeScript

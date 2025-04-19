@@ -1,27 +1,32 @@
-# Velto
+# ⚡ Velto – Smarter Autocompletion for TypeScript & JavaScript
 
-**Export Autocomplete** is a lightweight VS Code extension that helps you write `export` statements faster in JavaScript and TypeScript files.
+**Velto** is your new coding sidekick for VS Code—designed to make autocompletion in TypeScript and JavaScript smarter, faster, and more intuitive.
 
-As soon as you start typing `export`, it provides intelligent auto-completions for common export patterns — all based on your current file name. It's especially useful when creating new modules and components where export declarations are common.
+Starting with intelligent `export` snippets, Velto is just getting warmed up. The goal? Build a growing suite of enhancements that cut down boilerplate, reduce friction, and help you stay in flow while coding.
 
 ---
 
-## ✨ Features
+## ✨ What Velto Does Today
 
-- 🚀 Auto-suggests `export` statements as soon as you start typing `exp`, `expo`, etc.
-- 🧠 Smart snippets that default to your current file name.
-- ⌨️ Supports `export const`, `export function`, `export class`, `export interface`, and more.
-- 🛠 Tab stops let you quickly rename symbols after insertion.
-- ⚙️ Works in:
-  - JavaScript
-  - TypeScript
-  - React (JSX/TSX)
+- 🚀 **Smart Export Suggestions**  
+  Instantly get completions for `export` statements as soon as you type `exp`, `expo`, etc.
+
+- 🧠 **Context-Aware Snippets**  
+  Snippets auto-fill with your current file name (without the extension) as a default, so you can skip the repetitive stuff.
+
+- ⌨️ **Fast, Flexible Symbol Insertion**  
+  Snippets include tab stops so you can quickly rename identifiers as needed.
+
+- ⚙️ **Works Seamlessly With**:
+  - JavaScript (`.js`)
+  - TypeScript (`.ts`)
+  - React (JSX / TSX)
 
 ---
 
 ## 📦 Snippets Included
 
-| Snippet Suggestion         | Inserts                               |
+| 🔤 Trigger                  | 🧩 Inserts                             |
 | -------------------------- | ------------------------------------- |
 | `export const`             | `export const MyFile = ...`           |
 | `export var`               | `export var MyFile = ...`             |
@@ -31,60 +36,30 @@ As soon as you start typing `export`, it provides intelligent auto-completions f
 | `export interface`         | `export interface MyFile {}`          |
 | `export default interface` | `export default interface MyFile {}`  |
 
-> 📝 `MyFile` is automatically replaced with your current file name (without extension), and is editable after insertion.
+> 📝 `MyFile` is automatically pulled from the current file name and editable after insertion.
 
 ---
 
-## 🛠 Usage
+## 🚧 Built to Grow
 
-1. Start typing `exp`, `expo`, or any part of `export`.
-2. The autocomplete popup will suggest export snippets.
-3. Select the desired snippet and press `Enter` or `Tab`.
-4. Rename the identifier if needed — it's pre-filled with your current file name.
+This is just the beginning. Velto is designed to grow into a broader smart-completion engine for JavaScript and TypeScript development.
 
----
+Planned features include:
 
-## 📁 Example
+- 🔧 Autocompletion for common design patterns  
+- 🧱 Smarter component scaffolding for React  
+- 🧩 Intelligent type alias and enum generation  
+- 🔍 Inline code intelligence for common dev tasks  
+- And more, based on community feedback
 
-Typing:
-
-```ts
-exp
-```
-
-Will instantly suggest:
-
-```
-export const ▸
-export function ▸
-export default class ▸
-...
-```
-
-Choosing `export const` in a file named `User.ts` will insert:
-
-```ts
-export const User
-```
-
-With `User` selected so you can immediately rename it.
-
----
-
-## 🧩 Extension Details
-
-- Written in TypeScript
-- Uses VS Code's native `CompletionItemProvider` API
-- Triggers on any character in the word `export`
-
----
-
-## 💡 Why use this?
-
-When you're building lots of modules, components, or types, writing out export statements gets repetitive. This extension helps you go faster, with more consistency and less boilerplate typing.
 
 ---
 
 ## 📃 License
 
 MIT
+
+---
+
+Thanks for checking out **Velto**—your autocompletion, upgraded.  
+Stay tuned for more smart features to come! ✨
