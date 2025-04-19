@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+node_modules
+
+# VS Code settings
+.vscode/
+
+# Build output
+out/
+dist/
+lib/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Optional lock files (if you're not using them)
+# package-lock.json
+# yarn.lock
+
+# Test coverage
+coverage/
+
+# Mac system files
+*.DS_Store
+
+# JetBrains IDE files (if you switch editors)
+.idea/
+
+# VSCE packaging output
+*.vsix
